@@ -69,6 +69,8 @@ Location.prototype.putOnTheScreen = function(){
     trEl.appendChild(tdEl);
     console.log(tdEl);
   }
+
+  
 }
 
 listOfLocationObjects[0].putOnTheScreen();
@@ -78,14 +80,14 @@ listOfLocationObjects[0].putOnTheScreen();
 // // 3. append to the parent in the DOM
 
 // function renderHeader(){
-  // // make a tr and stick it to the DOM
-  // var trEl = document.createElement('tr');
-  // tableEl.appendChild(trEl);
+//   // make a tr and stick it to the DOM
+//   var trEl = document.createElement('tr');
+//   tableEl.appendChild(trEl);
   
   // // put the NAME in the DOM
-  // var tdEl = document.createElement('td');
-  // tdEl.textContent = 'NAME';
-  // trEl.appendChild(tdEl);
+  var tdEl = document.createElement('td');
+  tdEl.textContent = 'NAME';
+  trEl.appendChild(tdEl);
   
   // // put the TYPE in the DOM
   // tdEl = document.createElement('td');
